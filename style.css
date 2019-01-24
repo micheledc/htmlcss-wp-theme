@@ -1,0 +1,125 @@
+body{
+background-color: LIGHTGREY;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.container{
+  background-color: rgba(175, 175, 175, 0.6);
+  width: 1000px;
+  margin: auto;
+  padding: 15px;
+}
+
+/* PRIMA FILA  */
+.primafila,.secondafila,.quartafila{
+  background-color: white;
+  width: 100%;
+  margin:auto;
+  padding:15px;
+  position: relative;
+}
+.main{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: red;
+  font-size: 30px;
+  text-align: center;}
+
+ #piccolo{
+  font-size: 15px;
+}
+img{
+  width: 100%;
+}
+/* SECONDA FILA */
+
+.secondafila{
+
+  width: 100%;
+  margin:auto;
+  padding:0px;
+  }
+
+
+.item:after{
+  clear:both;
+  display: table;
+  content: "";
+
+}
+.itemestremi{
+  float:left;
+  width: 30%;
+  background-color: brown;
+  padding: 10px;
+  margin-left: 0px;
+  text-align: center;
+
+}
+.itemmediani{
+  float:left;
+width: 19.5%;
+background-color: brown;
+padding: 10px;
+margin-left: 0.25%;
+margin-right: 0.25%;
+text-align: center;
+}
+
+.item{
+  font-size: 20px;
+  color:white;
+}
+
+/* terzafila */
+
+
+.terzafila{
+  background-color: white;
+  padding-top: 5px
+}
+
+.terzafila:after{
+  clear:both;
+  display: table;
+  content: "";
+  }
+
+  .colouno,.colodue,.colotre{
+    float: left;
+
+
+    color: white;
+  }
+
+.colouno,.colotre{
+  width: 25%;
+  background-color: green;
+  height: 300px;
+  text-align: center;
+}
+
+.colodue{
+  width: 49%;
+  background-color: green;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  height: 300px;
+  text-align: left;
+}
+
+
+.quartafila{
+  background-color: brown;
+  padding: 10px;
+  margin-left: 0px;
+  text-align: center;
+}
+#color{
+  color: white;
+}
